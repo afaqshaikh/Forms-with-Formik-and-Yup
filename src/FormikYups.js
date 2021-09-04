@@ -24,6 +24,8 @@ const FormikYups = () => {
     return (
 
         <form onSubmit={formik.handleSubmit}>
+            <h3>Formik Forms With Yups</h3>
+
             <div className="mb-3">
                 <label htmlFor="exampleInputEmail1" className="form-label">Email address</label>
                 <input type="email" className="form-control" onChange={formik.handleChange} id="email" value={formik.values.email} aria-describedby="emailHelp" />
